@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    margin: 25px;
+  }
+
+.ust {
+  height: 270px;
+  background-color: black;
+  width: 200px;
+  margin: auto;
+}
+.alt {
+  height: 40vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  /* width: 250px; */
+  text-align: center;
+  margin: auto;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.alt button {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 2px;
+  background: #333;
+  color: white;
+  font-size: 40px;
+}
+.genel {
+  height: 856px;
+  width: 440px;
+  margin: auto;
+  border-radius: 35px;
+  background-color: black;
+
+}
+.alt .function {
+  /* color: black; */
+  background: #a5a5a5;
+  color: black;
+}
+
+.alt button.operator {
+  background: #f1a33c;
+}
