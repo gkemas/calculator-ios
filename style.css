@@ -6,12 +6,14 @@
 body {
   font-family: "Helvetica Neue", sans-serif;
   margin: 25px;
+  height: 100vh;
 }
 
 .ust {
   /* height: 270px; */
-  height: 20vh;
-  width: 460px;
+  height: 25vh;
+  /* width: 460px; */
+  width: 300px;
 }
 .alt {
   height: 40vh;
@@ -27,17 +29,18 @@ body {
 
 .alt button {
   border-radius: 50%;
-  height: 100px;
-  width: 100px;
+  height: 65px;
+  width: 65px;
   margin: 2px;
   background: #333;
   color: white;
   font-size: 40px;
 }
 .genel {
-  height: 820px;
-
-  width: 460px;
+  /* height: 820px; */
+  height: 85vh;
+  width: 300px;
+  /* width: 460px; */
   margin: auto;
   border-radius: 35px;
   background-color: black;
@@ -54,8 +57,18 @@ body {
 .alt .sıfır {
   grid-column: 1 / span 2;
 }
-.sıfır .number-0 {
-  width: 212px;
+.alt button:hover {
+  opacity: 0.6;
+}
+.alt button:active {
+  background-color: #f1a33c;
+  opacity: 1;
+  color: white;
+}
+.sıfır .zero{
+  /* width: 212px; */
+  width: 150px;
   padding-right: 95px;
   border-radius: 50px;
 }
+
