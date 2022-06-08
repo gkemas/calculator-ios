@@ -9,10 +9,9 @@ body {
 }
 
 .ust {
-  height: 270px;
-  background-color: black;
-  width: 200px;
-  margin: auto;
+  /* height: 270px; */
+  height: 20vh;
+  width: 460px;
 }
 .alt {
   height: 40vh;
@@ -37,6 +36,7 @@ body {
 }
 .genel {
   height: 820px;
+
   width: 460px;
   margin: auto;
   border-radius: 35px;
@@ -55,7 +55,7 @@ body {
   grid-column: 1 / span 2;
 }
 .sıfır .number-0 {
-    width: 212px;
-    padding-right: 95px;
+  width: 212px;
+  padding-right: 95px;
   border-radius: 50px;
 }
