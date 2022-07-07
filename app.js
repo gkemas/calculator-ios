@@ -19,7 +19,7 @@ const plus = document.querySelector(".plus");
 const zero = document.querySelector(".zero");
 const nokta = document.querySelector(".nokta");
 const equal = document.querySelector(".equal");
-uu
+
 ac.addEventListener("click", () => {
   subresult.innerText = "";
   result.innerHTML = "";
